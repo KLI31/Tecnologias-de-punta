@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blockchain: Tecnología de Punta</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f7f8;
+        color: #31363f;
+      }
+      .navbar {
+        background-color: #f5f7f8;
+      }
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #000 !important;
+      }
+      .nav-link {
+        color: #000 !important;
+        transition: color 0.3s ease;
+      }
+      .nav-link:hover {
+        color: #f3ba2f !important;
+        font-weight: bold;
+        transform: translateY(-2px);
+      }
+      .navbar-title {
+        font-weight: 600;
+        color: #f3ba2f;
+      }
+      header {
+        background: url('https://images.pexels.com/photos/20534490/pexels-photo-20534490/free-photo-of-dinero-oro-dorado-monedas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+          no-repeat center center/cover;
+        color: #fff;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      header p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      header a {
+        color: #fff;
+        background-color: #007bff;
+        padding: 0.5rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      .section {
+        padding: 4rem 0;
+      }
+      .section-title {
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+        text-align: center;
+        color: #f3ba2f;
+        font-weight: 600;
+      }
+      .feature-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #f3ba2f;
+      }
+      .img-fluid {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand navbar-title" href="#">Blockchain</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Introducción</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Características</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-it-works">¿Cómo Funciona?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#applications">Aplicaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#future">Futuro</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Blockchain: Tecnología de Punta</h1>
+        <p>
+          Transformando el mundo digital con transacciones seguras y
+          descentralizadas
+        </p>
+      </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="section bg-light">
+      <div class="container">
+        <div class="section-title">Introducción</div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-4">
+            <img src="./img/image1.svg" alt="Blockchain" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <p>
+              Blockchain es una tecnología de registro distribuido que permite
+              transacciones seguras, transparentes y descentralizadas sin la
+              necesidad de intermediarios. Originalmente desarrollada para la
+              criptomoneda Bitcoin, la tecnología blockchain ha evolucionado y
+              se ha adaptado a diversas aplicaciones más allá del ámbito
+              financiero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-title fw-semibold">Características Principales</div>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <i class="fas fa-network-wired feature-icon"></i>
+            <h4>Descentralización</h4>
+            <p>
+              No hay una autoridad central; el control se distribuye entre los
+              nodos participantes.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <i class="fas fa-lock feature-icon"></i>
+            <h4>Seguridad</h4>
+            <p>
+              Utiliza técnicas criptográficas para asegurar las transacciones y
+              la información almacenada.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <i class="fas fa-eye feature-icon"></i>
+            <h4>Transparencia</h4>
+            <p>
+              Todas las transacciones son visibles para los participantes de la
+              red.
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <i class="fas fa-shield-alt feature-icon"></i>
+            <h4>Inmutabilidad</h4>
+            <p>
+              Una vez que una transacción se registra en un bloque y se añade a
+              la cadena, no puede ser alterada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section bg-light">
+      <div class="container">
+        <div class="section-title">¿Cómo Funciona?</div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-6">
+            <p>
+              Blockchain funciona mediante la creación y verificación de
+              transacciones, las cuales son agrupadas en bloques y añadidas a
+              una cadena de bloques de manera secuencial y cronológica. Esta
+              cadena de bloques es inmutable y se distribuye a todos los nodos
+              de la red, asegurando la transparencia y la seguridad.
+            </p>
+          </div>
+          <div class="col-md-4s">
+            <img
+              src="./img/image2.svg"
+              alt="How Blockchain Works"
+              class="img-fluid"
+              width="450px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section id="applications" class="section">
+      <div class="container">
+        <div class="section-title">Aplicaciones</div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-coins feature-icon"></i>
+            <h4>Criptomonedas</h4>
+            <p>
+              Bitcoin, Ethereum y otras criptomonedas utilizan blockchain para
+              registrar transacciones.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-file-contract feature-icon"></i>
+            <h4>Contratos Inteligentes</h4>
+            <p>
+              Permiten la creación y ejecución de contratos que se ejecutan
+              automáticamente.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-truck feature-icon"></i>
+            <h4>Gestión de la Cadena de Suministro</h4>
+            <p>
+              Rastreo de productos a lo largo de la cadena de suministro,
+              mejorando la transparencia y reduciendo el fraude.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Section -->
+    <section id="future" class="section bg-light">
+      <div class="container">
+        <div class="section-title">El Futuro de Blockchain</div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-3">
+            <img
+              src="./img/image3.svg"
+              alt="Future of Blockchain"
+              class="img-fluid"
+              width="250px"
+            />
+          </div>
+          <div class="col-md-6">
+            <p>
+              El futuro de blockchain es prometedor, con potencial para
+              revolucionar diversas industrias, incluyendo finanzas, salud,
+              bienes raíces y más. Se espera que la adopción de blockchain
+              continúe creciendo, impulsada por la necesidad de sistemas más
+              seguros y transparentes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
